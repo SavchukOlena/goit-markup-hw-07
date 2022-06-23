@@ -13,7 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -59,166 +59,164 @@
         <!---------------PORTFOLIO-------------->
         <section class="portfolio">
             <!-----Filter -->
-            <h1 class="visually-hidden">Портфолио</h1>
+            <h1 class="portfolio__title visually-hidden">Портфолио</h1>
             <div class="container portfolio__container">
                 <ul class="filter list">
-                    <li class="top-btn"><button class="btn current" type="button">Все</button></li>
-                    <li class="top-btn"><button class="btn" type="button">Веб-сайты</button></li>
-                    <li class="top-btn"><button class="btn" type="button">Приложения</button></li>
-                    <li class="top-btn"><button class="btn" type="button">Дизайн</button></li>
-                    <li class="top-btn"><button class="btn" type="button">Маркетинг</button></li>
+                    <li class="filter__item"><button class="filter__button current" type="button">Все</button></li>
+                    <li class="filter__item"><button class="filter__button" type="button">Веб-сайты</button></li>
+                    <li class="filter__item"><button class="filter__button" type="button">Приложения</button></li>
+                    <li class="filter__item"><button class="filter__button" type="button">Дизайн</button></li>
+                    <li class="filter__item"><button class="filter__button" type="button">Маркетинг</button></li>
                 </ul>
                 <!-- Gallery  -->
-                <ul class="gallery-list list">
-                    <li class="gallery-item">                        
-                        <a href="" class="gallery-link link">
-                            <div class="gallery-thumb">
-                                <img class="gallery-img" src="./images/portfolio-page/technokryak.jpg" width="370"
+                <ul class="gallery list">
+                    <li class="gallery__item">                        
+                        <a href="" class="gallery__link link">
+                            <div class="gallery__thumb">
+                                <img class="gallery__img" src="./images/portfolio-page/technokryak.jpg" width="370"
                                     alt="Открытый ноутбук с сайтом на мониторе">
-                                <div class="service-descr">
-                                    <p class="service-descr-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                                <div class="gallery__layout">
+                                    <p class="gallery__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                                     исчерпывающие сведения о компании или частном лице.</p>
                                 </div>    
                             </div>
-                            <div class="pic-descr">
-                                <h2 class="gallery-item-title technokryak">Технокряк</h2>
-                                <p class="gallery-item-descr technokryak">Веб-сайт</p>
+                            <div class="gallery__bottom-info">
+                                <h2 class="gallery__title">Технокряк</h2>
+                                <p class="gallery__subtitle">Веб-сайт</p>
                             </div>                            
                         </a>                       
                         
                     </li>
-                    <li class="gallery-item">
-                        <a href="" class="gallery-link link">
-                            <div class="gallery-thumb">
-                                <img class="gallery-img" src="./images/portfolio-page/new-orlean-bascketball.jpg" width="370"
+                    <li class="gallery__item">
+                        <a href="" class="gallery__link link">
+                            <div class="gallery__thumb">
+                                <img class="gallery__img" src="./images/portfolio-page/new-orlean-bascketball.jpg" width="370"
                                     alt="Спортсмены играют в баскетбол">
-                                <div class="service-descr">
-                                    <p class="service-descr-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
+                                <div class="gallery__layout">
+                                    <p class="gallery__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
                                         это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
-                            <div class="pic-descr">
-                                <h2 class="gallery-item-title new-orlean">Постер New Orlean vs Golden Star</h2>
-                                <p class="gallery-item-descr new-orlean">Дизайн</p>
+                            <div class="gallery__bottom-info">
+                                <h2 class="gallery__title">Постер New Orlean vs Golden Star</h2>
+                                <p class="gallery__subtitle">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="gallery-item">
-                        <a href="" class="gallery-link link"> 
-                            <div class="gallery-thumb">
-                                <img class="gallery-img" src="./images/portfolio-page/seafood.jpg" width="370"
+                    <li class="gallery__item">
+                        <a href="" class="gallery__link link"> 
+                            <div class="gallery__thumb">
+                                <img class="gallery__img" src="./images/portfolio-page/seafood.jpg" width="370"
                                     alt="Стилизированное изображение лосося с надписью The Seafood">
-                                <div class="service-descr">
-                                    <p class="service-descr-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
+                                <div class="gallery__layout">
+                                    <p class="gallery__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
                                         это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
-                            <div class="pic-descr">
-                                <h2 class="gallery-item-title seafood">Ресторан Seafood</h2>
-                                <p class="gallery-item-descr seafood">Приложение</p>
+                            <div class="gallery__bottom-info">
+                                <h2 class="gallery__title">Ресторан Seafood</h2>
+                                <p class="gallery__subtitle">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="gallery-item">
-                        <a href="" class="gallery-link link">
-                            <div class="gallery-thumb">
-                                <img class="gallery-img" src="./images/portfolio-page/prime-headphones.jpg" width="370" alt="Черные наушники">
-                                <div class="service-descr">
-                                    <p class="service-descr-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
+                    <li class="gallery__item">
+                        <a href="" class="gallery__link link">
+                            <div class="gallery__thumb">
+                                <img class="gallery__img" src="./images/portfolio-page/prime-headphones.jpg" width="370" alt="Черные наушники">
+                                <div class="gallery__layout">
+                                    <p class="gallery__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
                                         это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
-                            <div class="pic-descr">
-                                <h2 class="gallery-item-title prime">Проект Prime</h2>
-                                <p class="gallery-item-descr prime">Маркетинг</p>
+                            <div class="gallery__bottom-info">
+                                <h2 class="gallery__title">Проект Prime</h2>
+                                <p class="gallery__subtitle">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="gallery-item">
-                        <a href="" class="gallery-link link">
-                            <div class="gallery-thumb">
-                                <img class="gallery-img" src="./images/portfolio-page/boxes-project.jpg" width="370"
+                    <li class="gallery__item">
+                        <a href="" class="gallery__link link">
+                            <div class="gallery__thumb">
+                                <img class="gallery__img" src="./images/portfolio-page/boxes-project.jpg" width="370"
                                     alt="Белая коробка  и розовая коробка">
-                                <div class="service-descr">
-                                    <p class="service-descr-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
+                                <div class="gallery__layout">
+                                    <p class="gallery__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
                                         это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
-                            <div class="pic-descr">
-                                <h2 class="gallery-item-title boxes">Проект Boxes</h2>
-                                <p class="gallery-item-descr boxes">Приложение</p>
+                            <div class="gallery__bottom-info">
+                                <h2 class="gallery__title">Проект Boxes</h2>
+                                <p class="gallery__subtitle">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="gallery-item">
-                        <a href="" class="gallery-link link">
-                            <div class="gallery-thumb">
-                                <img class="gallery-img" src="./images/portfolio-page/inspiration-monitor.jpg" width="370" alt="Монитор компьютера">
-                                <div class="service-descr">
-                                    <p class="service-descr-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
+                    <li class="gallery__item">
+                        <a href="" class="gallery__link link">
+                            <div class="gallery__thumb">
+                                <img class="gallery__img" src="./images/portfolio-page/inspiration-monitor.jpg" width="370" alt="Монитор компьютера">
+                                <div class="gallery__layout">
+                                    <p class="gallery__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
                                         это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
-                            <div class="pic-descr">
-                                <h2 class="gallery-item-title inspiration" lang="en">Inspiration has no Borders</h2>
-                                <p class="gallery-item-descr inspiration">Веб-сайт</p>
+                            <div class="gallery__bottom-info">
+                                <h2 class="gallery__title" lang="en">Inspiration has no Borders</h2>
+                                <p class="gallery__subtitle">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li class="gallery-item">
-                        <a href="" class="gallery-link link">
-                            <div class="gallery-thumb">
-                                <img class="gallery-img" src="./images/portfolio-page/limited-edition-journal.jpg" width="370" alt="Разворот журнала">
-                                <div class="service-descr">
-                                    <p class="service-descr-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
+                    <li class="gallery__item">
+                        <a href="" class="gallery__link link">
+                            <div class="gallery__thumb">
+                                <img class="gallery__img" src="./images/portfolio-page/limited-edition-journal.jpg" width="370" alt="Разворот журнала">
+                                <div class="gallery__layout">
+                                    <p class="gallery__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
                                         это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
-                            <div class="pic-descr">
-                                <h2 class="gallery-item-title edition">Издание Limited Edition</h2>
-                                <p class="gallery-item-descr edition">Дизайн</p>
+                            <div class="gallery__bottom-info">
+                                <h2 class="gallery__title">Издание Limited Edition</h2>
+                                <p class="gallery__subtitle">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="gallery-item">
-                        <a href="" class="gallery-link link">
-                            <div class="gallery-thumb">
-                                <img class="gallery-img" src="./images/portfolio-page/lab-project.jpg" width="370" alt="Бирка">
-                                <div class="service-descr">
-                                    <p class="service-descr-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
+                    <li class="gallery__item">
+                        <a href="" class="gallery__link link">
+                            <div class="gallery__thumb">
+                                <img class="gallery__img" src="./images/portfolio-page/lab-project.jpg" width="370" alt="Бирка">
+                                <div class="gallery__layout">
+                                    <p class="gallery__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
                                         это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                             
-                            <div class="pic-descr">
-                                <h2 class="gallery-item-title lab">Проект LAB</h2>
-                                <p class="gallery-item-descr lab">Маркетинг</p>
+                            <div class="gallery__bottom-info">
+                                <h2 class="gallery__title">Проект LAB</h2>
+                                <p class="gallery__subtitle">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="gallery-item">
-                        <a href="" class="gallery-link link">
-                            <div class="gallery-thumb">
-                                <img class="gallery-img" src="./images/portfolio-page/growing-business-laptop.jpg" width="370"
+                    <li class="gallery__item">
+                        <a href="" class="gallery__link link">
+                            <div class="gallery__thumb">
+                                <img class="gallery__img" src="./images/portfolio-page/growing-business-laptop.jpg" width="370"
                                     alt="Монитор ноутбука с надписью Растущий бизнес">
-                                    <div class="service-descr">
-                                        <p class="service-descr-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
+                                    <div class="gallery__layout">
+                                        <p class="gallery__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
                                             это позволит посетителю получить
                                             исчерпывающие сведения о компании или частном лице.</p>
-                                    </div>
-                                    
-
+                                    </div>                             
                             </div>
-                            <div class="pic-descr">
-                                <h2 class="gallery-item-title growing-business" lang="en">Growing Business</h2>
-                                <p class="gallery-item-descr growing-business">Приложение</p>
+                            <div class="gallery__bottom-info">
+                                <h2 class="gallery__title" lang="en">Growing Business</h2>
+                                <p class="gallery__subtitle">Приложение</p>
                             </div>
                         </a>
                     </li>
@@ -295,7 +293,7 @@
                 <form class="sign-up__form">
                     <label class="sign-up__label" for="email"></label>
                     <input class="sign-up__input" type="email" name="email" id="email" placeholder="E-mail">
-                    <button class="sign-up__button" type="submit">
+                    <button class=" button sign-up__button" type="submit">
                         Подписаться
                         <svg class="sign-up__icon" width="24px" height="24px">
                             <use href="./images/icons.svg#icon-send"></use>
