@@ -1,6 +1,7 @@
 @import "./utils/variables";
 @import "./utils/reset";
 @import "./utils/common";
+@import "./components/mixins";
 @import "./components/page-header";
 @import "./components/logo";
 @import "./components/hero-section";
@@ -11,7 +12,6 @@
 @import "./components/customers";
 @import "./components/page-footer";
 @import "./components/modal";
-@import "./components/form"
-@import "./components/portfolio-common";
-@import "./components/portfolio-filter";
+@import "./components/form";
+@import "./components/portfolio-Common_and_Filter";
 @import "./components/portfolio-gallery";

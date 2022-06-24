@@ -92,9 +92,6 @@
         .close-btn:focus > & {
                 fill: var(--accent-color);
             }
-
-
-
 }
 
 .modal-title {
@@ -105,5 +102,11 @@
     font-size: 20px;
     line-height: 1.15;
     color: var(--title-color);
+}
+
+
+.modal__button {
+    margin: 0 auto;
+    padding: 10px 55px;
 }
 

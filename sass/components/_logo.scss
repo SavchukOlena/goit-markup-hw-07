@@ -1,6 +1,4 @@
 
-// LOGO-BASIC
-
 .logo {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
@@ -9,19 +7,16 @@
     line-height: 1.19;
 }
 
-// HEADER-LOGO
-
-.logo__span {
-    color: #000000;
-}
-
-.header__logo {
+.logo--positioned {
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-// FOOTER-LOGO
+.logo__span {
+    color: #000000;
+}
+
 
 .logo__span--inverse {
     color: var(--main-bgd-color);
